@@ -1,0 +1,207 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <div class="split left" >
+            <div id="ele1" style="text-align: center; height:100px;">
+                <div>
+                    <h5 style="margin-top:40px">Eric Hoffman</h5>
+                    <p style="margin-top:-18px">principal designer</p>
+                </div>
+                <div class="compose" style="display:flex; flex-direction: row; justify-content: center;">
+                   <img  style="border:1px solid white;border-radius: 2px;" src="icons8-chevron-down-24.png">
+                   &nbsp;&nbsp;<div>Compose</div> 
+                </div>
+            </div>
+            <div style="height: 435px;padding:10px;">
+                <ul>
+                    <li class="menu" id="inbox" onclick="inbox()">INBOX<label id="inboxlabel">5</label></li>
+                    <li class="menu">SENT</li>
+                    <li class="menu">DRAFT<label>2</label></li>
+                    <li class="menu">SPAM<label>3</label></li>
+                    <li class="menu">TRASH</li>
+                    <li class="menu">MESSAGE<label>2</label></li>
+                    <li class="menu">TAGS</li>
+                </ul>
+            </div>
+            <div class="footer" style="display:flex; flex-direction: row; justify-content: center;">
+               <img src="grey.png">&nbsp;<div class="vl"></div>&nbsp;<img src="grey.png">               
+            </div>
+        </div>
+        <div class="split center">
+            <div id ="mailmenu" style="margin-left: 10px; margin-bottom: -5px;">
+                <span style="font-size: 13px; color: #525151;">All</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                <span style="font-size: 13px;">Most Recent</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                <span style="font-size: 13px;">Unread</span>
+            </div>
+            <br>
+            <hr style="border-top: 1px solid rgb(220, 219, 219);">
+            <div >
+                <nav>
+                    <ul class="scrollbar-thin" id="style-4">
+                        <li class="mailList">                      
+                                <div class="container">
+                                    <h5>Stephan Bernard</h5>
+                                    <p>10:28 PM</p> 
+                                </div>                            
+                                <p>Available for Windows and Mac!</p>  
+                                <div class="pointer"></div>   
+                        </li>
+                        <li class="mailList" id="bubble">                      
+                            <div class="container">
+                                <h5>Kenil Bhavsar</h5>
+                                <p style="margin-right: 5px;">10:24 PM</p> 
+                            </div>                            
+                            <p>My Amazing trip of australia!</p>     
+                        </li>
+                        <li class="mailList">                      
+                            <div class="container">
+                                <h5>Kate Brooke</h5>
+                                <p>8th Dec</p> 
+                            </div>                            
+                            <p>Welcome to our Newletter! Here's $10 Off for...</p>     
+                        </li>
+                        <li class="mailList">                      
+                            <div class="container">
+                                <h5>Ken Shamroc</h5>
+                                <p>7th Dec</p> 
+                            </div>                            
+                            <p>Best Customer Like You Get a Free Koozie</p>     
+                        </li>
+                        <li class="mailList">                      
+                            <div class="container">
+                                <h5>Refco Financial Services</h5>
+                                <p>4th Dec</p> 
+                            </div>                            
+                            <p>Final reminder for complimentary entry</p>     
+                        </li>
+                        <li class="mailList">                      
+                            <div class="container">
+                                <h5>AXIS Bank</h5>
+                                <p>1st Dec</p> 
+                            </div>                            
+                            <p>Monthly Statement</p>     
+                        </li>
+                        <li class="mailList">                      
+                            <div class="container">
+                                <h5>Bill Stainer</h5>
+                                <p>29th Nov</p> 
+                            </div>                            
+                            <p>Case study:Spangler Candy</p>     
+                        </li>
+                        <li class="mailList">                      
+                            <div class="container">
+                                <h5>Stephan Bernard</h5>
+                                <p>29th Nov</p> 
+                            </div>                            
+                            <p>Using eCommerce Data to Grow Email Revenue</p>     
+                        </li>
+                        <li class="mailList">                      
+                            <div class="container">
+                                <h5>john.smith@gmal.com</h5>
+                                <p>28th Nov</p> 
+                            </div>                            
+                            <p>Have a nice trip of Australia</p>     
+                        </li>
+                        <li class="mailList">                      
+                            <div class="container">
+                                <h5>Maria Wilson</h5>
+                                <p>26th Nov</p> 
+                            </div>                            
+                            <p>How to maximise holiday with a big spnders...</p>     
+                        </li>
+                        <li class="mailList">                      
+                            <div class="container">
+                                <h5>Vince William</h5>
+                                <p>21st Nov</p> 
+                            </div>                            
+                            <p>2013 Retention Marketing Report</p>     
+                        </li>
+                        <li class="mailList">                      
+                            <div class="container">
+                                <h5>Frank Cook</h5>
+                                <p>9th Nov</p> 
+                            </div>                            
+                            <p>Download the Case Study Today!</p>     
+                        </li>
+                        <li class="mailList">                      
+                            <div class="container">
+                                <h5>Steven Fleming</h5>
+                                <p>1st Nov</p> 
+                            </div>                            
+                            <p>Reduce Opens with Subject Lines</p>     
+                        </li>
+                        
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="split right">
+            <div id="mailHead">
+                <div id="icons" style="margin-top: -20px;">
+                    <img src="grey.png">&nbsp;<img src="grey.png">&nbsp;<img src="grey.png">&nbsp;<img src="grey.png">
+                </div>
+                <input placeholder="Your keyword..." id="inputKeyword">
+                
+            </div>
+            <br><hr style="width: 95%;border-top: 1px solid rgb(220, 220, 220);">
+          
+            <div id="mail_head" style="display:flex; flex-direction: row; margin-top:-15px; margin-bottom:-15px;justify-content: space-around;">
+                <img src="grey.png" style="margin-left: -95px;">
+                <div id="name1" style="margin-left: -200px;">   
+                    <h5>Kenil Bhavsar</h5>
+                    <p>love with UI/GUI/UX</p>            
+                </div>
+                <div style="border-left:0.3px solid rgb(220, 220, 220);height:45px; margin-top: 15px;margin-left: -200px;"></div>
+              
+                <div id="mail1" style="margin-left: -200px;">
+                    
+                    <h5>My Amazing trip of australia!</h5>
+                    <p>To : Me,james,ali@gmail.com</p>
+                    
+
+                </div>
+                <div style="padding-top: 13px;margin-right: -95px;">
+                    <p id="date1">25 November 2013 | 10:24 PM</p>
+                </div>
+                
+          
+            </div>
+            <hr style="margin-top: 20px;width:95%;border-top: 1px solid rgb(220, 220, 220);">
+            <div style="padding-left: 20px; padding-right: 20px;">
+                <p style="font-size:12px;">Hi Eric,</p>
+                <p style="font-size:17px;"> There are things I love and hate about Aussie food.</p>
+                <p style="font-size:12px; word-spacing: 3px;">Being American,I loather Australian hamburgers and lack of quality Mexican food.
+                    I love the amount of Asian restaurants available in the cities, and you can take
+                    me out for a pub dinner(schnitzel) and day of the week. My fascination with 
+                    Australia started young and was probably enhanced as a tween when I fell in love
+                    with Silverchair. I always thought it sounded like an exotic place to travel, and
+                    you never meet an Aussie traveling that doesn't love their home country.
+                </p >
+                <h5>Thank you..</h5>
+                <p style="font-size:12px; margin-top: -15px;">Kenil Bhavsar</p>
+                
+                <hr style="width: 100%;border-top: 1px solid rgb(240, 240, 240);">
+
+                    <p>Attachment:</p>
+                    <div style="display:flex; flex-direction: row; margin-top: -15px;">
+                        <span> <p>my-photo.jpg</p></span>&nbsp;
+                        <span style="margin-top: 10px; font-size: 10px;">|</span>&nbsp; 
+                        <span> <p>australia-trip.ppt</p></span>
+                        <span><i class=""></i></span>
+                    </div>
+                    <button id="dBtn" style="background-color: grey;float: right; margin-top: -35px;" onclick="download()"></button>
+   
+                <hr style="width: 100%; border-top: 1px solid rgb(240, 240, 240);">
+                <br>
+                <textarea type="text" id="textArea">It's really an amazing, I want to know more about it...!!
+                </textarea>
+                <br>
+                <button onclick="send()" id="sendBtn" style="float: right;margin-right:-10px;">Send</button>
+
+            </div>
+        </div>
+    </body>
+</html>
